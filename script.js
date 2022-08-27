@@ -29,6 +29,7 @@ if (a > b) {
     console.log(`O numero ${b} é maior que ${a} `)
 };
 
+//SWITCH
 for (i=0; i <= 6; i++) { 
     switch (i) {
         case 0:
@@ -64,6 +65,7 @@ for (i=0; i <= 6; i++) {
     };
     }
 
+//TERNARIO 
 let result = (a > 0 ? "Gosta de jogar video-game" : "Não gosta de jogar video game");
 console.log(result);
 
@@ -72,3 +74,18 @@ let genero = prompt('Entre com M ou F');
 let saida = genero == 'M'? 'Masculino' : 'Feminino';
 
 console.log(saida);
+
+//DESAFIO
+let diaSemana = prompt('Digite o dia do mês');
+
+let parOuImpar= diaSemana % 2;
+
+let resultado = parOuImpar == 1 ? 'Este dia é impar' : 'Este dia é par';
+
+console.log(resultado);
+
+//COLESCENTE
+let coisa = null;
+let variavel = coisa ?? 'Não há';
+console.log(variavel);
+
