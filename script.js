@@ -66,3 +66,9 @@ for (i=0; i <= 6; i++) {
 
 let result = (a > 0 ? "Gosta de jogar video-game" : "Não gosta de jogar video game");
 console.log(result);
+
+let genero = prompt('Entre com M ou F');
+
+let saida = genero == 'M'? 'Masculino' : 'Feminino';
+
+console.log(saida);
