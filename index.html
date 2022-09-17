@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +7,23 @@
     <title>Aquecimento</title>
 </head>
 <body>
-    <h1>Olá mundo</h1>
-    <script src="script.js"></script>
+    <form action="" method="">
+        <label for="servico">Serviços</label>
+        <select name="" id="servico">
+            <option value="0">Troca de óleo</option>
+            <option value="1">Balanceamento</option>
+            <option value="2">Cabagem</option>
+        </select>
+        <br/>
+        <label for="prazo">Prazos</label>
+        <select name="" id="prazo">
+            <option value="0">1 dia</option>
+            <option value="1">2 dias</option>
+            <option value="2">3 dias</option>
+        </select>
+        <p id="resultado"></p>
+        <button id="calcular">calcular</button>
+    </form>
+    <script src="calcular.js"></script>
 </body>
 </html>

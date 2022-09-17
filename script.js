@@ -88,4 +88,3 @@ console.log(resultado);
 let coisa = null;
 let variavel = coisa ?? 'Não há';
 console.log(variavel);
-
